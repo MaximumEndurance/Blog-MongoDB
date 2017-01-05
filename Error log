@@ -1,0 +1,23 @@
+aryan@Triyambakam:/media/aryan/Adani/crudtesting/Blog-MongoDB$ npm run dev
+
+> crud-express-mongo@1.0.0 dev /media/aryan/Adani/crudtesting/Blog-MongoDB
+> nodemon server.js
+
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node server.js`
+{ MongoError: failed to connect to server [ds047955.mongolab.com:47955] on first connect
+    at Pool.<anonymous> (/media/aryan/Adani/crudtesting/Blog-MongoDB/node_modules/mongodb-core/lib/topologies/server.js:326:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/media/aryan/Adani/crudtesting/Blog-MongoDB/node_modules/mongodb-core/lib/connection/pool.js:272:12)
+    at Connection.g (events.js:292:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/media/aryan/Adani/crudtesting/Blog-MongoDB/node_modules/mongodb-core/lib/connection/connection.js:185:10)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+  name: 'MongoError',
+  message: 'failed to connect to server [ds047955.mongolab.com:47955] on first connect' }
+
